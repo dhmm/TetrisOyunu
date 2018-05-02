@@ -1,0 +1,9 @@
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\bin\Debug\TetrisOyunu.exe
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\bin\Debug\TetrisOyunu.pdb
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.Properties.Resources.resources
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.csproj.GenerateResource.Cache
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.exe
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.pdb
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.FormAnaForm.resources
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.csprojResolveAssemblyReference.cache
+C:\PROJECTS\TetrisOyunu\TetrisOyunu\obj\x86\Debug\TetrisOyunu.FormYardim.resources
