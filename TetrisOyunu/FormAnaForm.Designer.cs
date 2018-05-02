@@ -39,6 +39,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pnlSonraki = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.pnlObjeler = new System.Windows.Forms.Panel();
+            this.pnlObjeler.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel
@@ -60,7 +62,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label1.Location = new System.Drawing.Point(318, 250);
+            this.label1.Location = new System.Drawing.Point(3, 239);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(180, 29);
             this.label1.TabIndex = 1;
@@ -72,7 +74,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label2.Location = new System.Drawing.Point(318, 361);
+            this.label2.Location = new System.Drawing.Point(3, 350);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(180, 29);
             this.label2.TabIndex = 2;
@@ -84,7 +86,7 @@
             this.lblPuan.BackColor = System.Drawing.Color.Chocolate;
             this.lblPuan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lblPuan.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblPuan.Location = new System.Drawing.Point(318, 279);
+            this.lblPuan.Location = new System.Drawing.Point(3, 268);
             this.lblPuan.Name = "lblPuan";
             this.lblPuan.Size = new System.Drawing.Size(180, 44);
             this.lblPuan.TabIndex = 3;
@@ -96,7 +98,7 @@
             this.lblSeviye.BackColor = System.Drawing.Color.Chocolate;
             this.lblSeviye.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lblSeviye.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblSeviye.Location = new System.Drawing.Point(318, 390);
+            this.lblSeviye.Location = new System.Drawing.Point(3, 379);
             this.lblSeviye.Name = "lblSeviye";
             this.lblSeviye.Size = new System.Drawing.Size(180, 44);
             this.lblSeviye.TabIndex = 4;
@@ -108,7 +110,7 @@
             this.label6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label6.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label6.Location = new System.Drawing.Point(318, 12);
+            this.label6.Location = new System.Drawing.Point(3, 1);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(180, 29);
             this.label6.TabIndex = 5;
@@ -118,31 +120,39 @@
             // pnlSonraki
             // 
             this.pnlSonraki.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlSonraki.Location = new System.Drawing.Point(318, 44);
+            this.pnlSonraki.Location = new System.Drawing.Point(3, 33);
             this.pnlSonraki.Name = "pnlSonraki";
             this.pnlSonraki.Size = new System.Drawing.Size(180, 180);
             this.pnlSonraki.TabIndex = 7;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(319, 528);
+            this.label3.Location = new System.Drawing.Point(8, 503);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(179, 24);
             this.label3.TabIndex = 8;
             this.label3.Text = "Yardim icin F1 e basin";
             // 
+            // pnlObjeler
+            // 
+            this.pnlObjeler.Controls.Add(this.label6);
+            this.pnlObjeler.Controls.Add(this.label3);
+            this.pnlObjeler.Controls.Add(this.label1);
+            this.pnlObjeler.Controls.Add(this.pnlSonraki);
+            this.pnlObjeler.Controls.Add(this.label2);
+            this.pnlObjeler.Controls.Add(this.lblPuan);
+            this.pnlObjeler.Controls.Add(this.lblSeviye);
+            this.pnlObjeler.Location = new System.Drawing.Point(327, 12);
+            this.pnlObjeler.Name = "pnlObjeler";
+            this.pnlObjeler.Size = new System.Drawing.Size(190, 540);
+            this.pnlObjeler.TabIndex = 9;
+            // 
             // FormAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 569);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pnlSonraki);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.lblSeviye);
-            this.Controls.Add(this.lblPuan);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(539, 568);
+            this.Controls.Add(this.pnlObjeler);
             this.Controls.Add(this.panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -150,9 +160,10 @@
             this.MinimizeBox = false;
             this.Name = "FormAnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tetris Oyunu v 0.1";
+            this.Text = "Tetris Oyunu v 0.2";
             this.Load += new System.EventHandler(this.FormAnaForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormAnaForm_KeyDown);
+            this.pnlObjeler.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -168,6 +179,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel pnlSonraki;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel pnlObjeler;
     }
 }
 
